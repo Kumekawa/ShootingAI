@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="自分で作成したヘッダーたち">
+      <UniqueIdentifier>{fbf24e27-da8b-4f59-a0a2-90eebafaafbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自分で作成したヘッダーたち\ヘッダー">
+      <UniqueIdentifier>{aba1e0eb-989d-4562-9f36-2e64474c42a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自分で作成したヘッダーたち\ソース">
+      <UniqueIdentifier>{5553c24e-d08d-46a4-abed-d3af7c2aedb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MacroWindowSize.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\Between.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\DrawLineStright.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\DxLibAlways.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\DxLibEndEffect.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\KeyInput.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\自分で作ったヘッダーたち\MacroColor.h">
+      <Filter>自分で作成したヘッダーたち\ヘッダー</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\自分で作ったヘッダーたち\DxLibAlways.cpp">
+      <Filter>自分で作成したヘッダーたち\ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\自分で作ったヘッダーたち\DxLibEndEffect.cpp">
+      <Filter>自分で作成したヘッダーたち\ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\自分で作ったヘッダーたち\KeyInput.cpp">
+      <Filter>自分で作成したヘッダーたち\ソース</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
